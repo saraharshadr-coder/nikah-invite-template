@@ -477,8 +477,8 @@ html:not(.js) .scene { min-height: 100svh; }
 .mono[lang="ar"] { align-items: baseline; }
 .mono[lang="ar"] .glyph { font-family: "Gulzar", var(--font-arabic); line-height: 1.2; }
 .mono[lang="ar"] .mono-heart { font-family: "Gulzar", var(--font-arabic); font-size: 0.75em; margin: 0 0.2em; }
-.mono[lang="ar"] .glyph:first-child { font-size: 0.95em; }
-.mono[lang="ar"] .glyph:last-child { font-size: 1.5em; }
+.mono[lang="ar"] .glyph:first-child { font-size: 0.85em; }
+.mono[lang="ar"] .glyph:last-child { font-size: 0.85em; }
 .mono-heart {
   margin: 0 0.3em;
   font-family: var(--font-serif);
