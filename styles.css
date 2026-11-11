@@ -1026,3 +1026,52 @@ html.js .scene-intro { height: auto; min-height: calc(100vh - 110px); min-height
 }
 .scene-programme .programme-card { margin-top: 0; }
 .scene-programme .programme-title { margin-top: 0; }
+
+
+/* ---------- Blue & ivory colour palette ---------- */
+/* These final overrides keep the invitation blue even if a theme is selected. */
+:root,
+:root[data-theme="royal"],
+:root[data-theme="maroon"],
+:root[data-theme="rose"],
+:root[data-theme="gold"],
+:root[data-theme="emerald"] {
+  --base-900: #243D5A;
+  --base-800: #304D6D;
+  --base-700: #526D89;
+  --base-rgb: 36, 61, 90;
+  --glow-rgb: 180, 195, 210;
+
+  --gold: #C6AD7A;
+  --gold-light: #E4D5B5;
+  --ivory: #F8F4EB;
+  --ivory-dark: #EDE5D7;
+  --ink: #303C49;
+  --muted: #77766F;
+
+  --page: #243D5A;
+  --panel: #304D6D;
+  --text: #F8F4EB;
+  --text-rgb: 248, 244, 235;
+  --accent: #E4D5B5;
+  --surface-rgb: 36, 61, 90;
+
+  --bloom: #F8F4EB;
+  --bloom-inner: #EDE5D7;
+  --bloom-edge: #C6AD7A;
+
+  --paper-1: #F8F4EB;
+  --paper-2: #EDE5D7;
+  --flap-1: #E8E0D3;
+  --flap-2: #D8CDBB;
+  --env-back: #D8CDBB;
+}
+
+/* Blue details for elements that use fixed colours rather than theme variables. */
+.event-card.featured {
+  background: var(--pattern), #526D89;
+  background-size: 60px 60px, auto;
+}
+.event-card h3 {
+  color: #304D6D;
+}
